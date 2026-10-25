@@ -1,0 +1,34 @@
+# Python virtual environments (the 10000 junk files!)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE folders
+.idea/
+.vscode/
+.DS_Store
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large datasets (800MB RadioML pkl!)
+*.pkl
+*.npy
+*.bin
+*.dat
+datasets/
+
+# Media (test files)
+*.wav
+*.mp3
+*.ogg
+
+# Outputs / logs
+*.log
+download/
+.env
